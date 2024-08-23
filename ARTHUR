@@ -1,0 +1,8 @@
+let palavra;
+
+function setup() {
+    createCanvas(500, 500);
+    
+    let palavras = ["MESSSI", "NEYMAR", "ARTHUR"];
+    palavra = random(palavras);
+} 
